@@ -1,11 +1,48 @@
-body{margin: 0;}
-h1{margin-top: 3px;padding-top: 10px;text-align: center;}
 
-.rocksfairunderline{text-decoration: underline;}
+body{margin: 0;font-family: 'Roboto Slab', serif;}
 
+.h1{
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 10px;
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+  font-size: 4rem;
+  font-weight: bold;
+}
+.h2
+{font-family: 'Patrick Hand', cursive;
+font-size: 1.5rem;
+text-align: center;
+}
+.rocksfairunderline
+{
+  font-size: 2rem;
+  font-weight: bold;
+}
+.logo{background-color: #edffea;padding-top:40px;}
+.tags{display: flex;justify-content: space-between;}
+.producttag
+{text-align: center;
+  width: 24%;
+  margin: 10px;
+  border-radius: 25px;
+  border-style: solid;
+  color: #6d6d6d;
+  background-color: #fafba4;
 
+}
+.rocksfairproductstoptext{
+  font-size: 1.5rem;
+  color: black;
+  border-style: solid;
+  border-radius: 25px;
+  margin: 0 60px 10px 60px;
+  background-color: orange;
 
-div{
-  background-color: #e4f9f5;
-
+}
+.rocksfairproductsbottomtext
+{
+text-decoration:none;
+text-decoration-color: black;
 }
